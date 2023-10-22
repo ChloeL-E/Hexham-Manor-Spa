@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@100;200;300;400;500;600;700&family=Oswald&family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+/* --------------------COLOURS------------*/
+.bg-color-nav {
+    background-color: #ded0cf;
+}
+
+
+
+/*-----------------------GENERAL*/
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    font-family: 'Noto Serif Display', sans-serif;
+}
+
+.header-inline {
+    display: inline;
+}
