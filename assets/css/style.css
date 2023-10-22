@@ -2,24 +2,39 @@
 
 /* --------------------COLOURS------------*/
 .bg-color-nav {
-    background-color: #ded0cf;
+    background-color: #ecdedd;
 }
 
 
 
 /*-----------------------GENERAL*/
-* {
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ded0cf;
+}
+
+header a {
+    font-family: 'Noto Serif Display', sans-serif;
+    color: #433837;
+}
+
+.navigation-container {
+    display: flex;
+    width: 100%;
+    height:
+}
+
+.navigation-bar-inline {
+    display: inline-block;
+    line-height: 75px;
+}
+
+#logo-container {
+
     margin: 0;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-}
+#call-to-action-container {
 
-header {
-    font-family: 'Noto Serif Display', sans-serif;
-}
-
-.header-inline {
-    display: inline;
+    margin-right: 0;
 }
