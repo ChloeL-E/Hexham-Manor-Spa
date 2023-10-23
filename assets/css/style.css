@@ -1,40 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@100;200;300;400;500;600;700&family=Oswald&family=Roboto:ital,wght@0,400;1,700&display=swap');
 
-/* --------------------COLOURS------------*/
-.bg-color-nav {
-    background-color: #ecdedd;
-}
-
-
-
-/*-----------------------GENERAL*/
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #ded0cf;
+  font-family: "Noto Serif Display";
 }
 
-header a {
-    font-family: 'Noto Serif Display', sans-serif;
-    color: #433837;
+header  {
+  background-color:#8a7e7d;
+  top: 0;
+  left: 0;
 }
 
-.navigation-container {
-    display: flex;
-    width: 100%;
-    height:
+#logo {
+  display: inline-block;
 }
 
-.navigation-bar-inline {
-    display: inline-block;
-    line-height: 75px;
+.nav-justified {
+  display: inline-block;
+  width: 100%;
 }
 
-#logo-container {
-
-    margin: 0;
+#call-to-action {
+  font-weight: 700;
+  color: #453f3e;
+  display: inline-block;
 }
 
-#call-to-action-container {
-
-    margin-right: 0;
+#call-to-action:hover {
+  color: #dbd0d0;
 }
+
